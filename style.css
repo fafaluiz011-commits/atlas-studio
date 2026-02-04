@@ -1,11 +1,19 @@
-:root {
-  --primary: #1f2937;
-  --secondary: #2563eb;
-  --accent: #22c55e;
-  --bg: #0f172a;
-  --text: #e5e7eb;
+* {
+font-weight: 600;
 }
-margin: 0;
+
+
+.services h3,
+.process h3,
+.cta h3 {
+font-size: 2rem;
+margin-bottom: 30px;
+}
+
+
+.cards {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 gap: 30px;
 }
 
@@ -74,5 +82,4 @@ font-weight: 700;
 @media (max-width: 900px) {
 .hero-grid {
 grid-template-columns: 1fr;
-}
 }
