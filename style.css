@@ -1,0 +1,71 @@
+margin: 0;
+gap: 30px;
+}
+
+
+.card {
+background: #fff;
+padding: 30px;
+border-radius: 14px;
+box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+}
+
+
+.card h4 {
+font-size: 1.2rem;
+margin-bottom: 10px;
+}
+
+
+.process {
+background: #f9f9f9;
+}
+
+
+.steps {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 20px;
+}
+
+
+.step {
+background: #fff;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 6px 20px rgba(0,0,0,0.05);
+}
+
+
+.cta {
+background: #111;
+color: #fff;
+text-align: center;
+}
+
+
+.footer {
+text-align: center;
+font-size: 0.9rem;
+color: #666;
+}
+
+
+.whatsapp-float {
+position: fixed;
+bottom: 24px;
+right: 24px;
+background: #25d366;
+color: #fff;
+padding: 14px 22px;
+border-radius: 50px;
+text-decoration: none;
+font-weight: 700;
+}
+
+
+@media (max-width: 900px) {
+.hero-grid {
+grid-template-columns: 1fr;
+}
+}
