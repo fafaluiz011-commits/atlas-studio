@@ -1,3 +1,10 @@
+:root {
+  --primary: #1f2937;
+  --secondary: #2563eb;
+  --accent: #22c55e;
+  --bg: #0f172a;
+  --text: #e5e7eb;
+}
 margin: 0;
 gap: 30px;
 }
