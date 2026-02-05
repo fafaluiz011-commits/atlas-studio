@@ -97,3 +97,11 @@ font-weight: 700;
 .hero-grid {
 grid-template-columns: 1fr;
 }
+a {
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.85;
+}
