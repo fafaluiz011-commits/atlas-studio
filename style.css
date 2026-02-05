@@ -157,3 +157,45 @@ a:hover {
   box-shadow: 0 26px 60px rgba(0,0,0,0.16);
 }
 body { outline: 6px solid red !important; }
+/* FORCE PREMIUM OVERRIDES */
+a { 
+  color: #ffe600 !important; 
+  text-decoration: none !important; 
+}
+
+a:hover { 
+  opacity: 0.9 !important; 
+  text-decoration: underline !important; 
+}
+
+.header { 
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 50 !important;
+  background: rgba(2, 6, 23, 0.65) !important;
+  backdrop-filter: blur(10px) !important;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.18) !important;
+}
+
+.hero { 
+  padding: 60px 0 !important; 
+}
+
+.hero h2 { 
+  color: #fff !important; 
+  letter-spacing: -1px !important; 
+}
+
+.hero p { 
+  color: #cbd5e1 !important; 
+  max-width: 620px !important; 
+}
+
+.card { 
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important; 
+}
+
+.card:hover { 
+  transform: translateY(-4px) !important; 
+  box-shadow: 0 26px 60px rgba(0,0,0,0.16) !important; 
+}
